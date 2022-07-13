@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import NavBar from './components/NavBar'
-import Landing from './components/Landing'
-import Login from './components/Login'
-import Register from './components/Register'
-import Profile from './components/Profile'
-import List from './List';
-
+import NavBar from "./components/NavBar";
+import Landing from "./components/Landing";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Profile from "./components/Profile";
+import List from "./List";
 
 class App extends Component {
-
-  render () {
+  render() {
     return (
       <Router>
         {localStorage.clear()}
